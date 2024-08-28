@@ -14,6 +14,9 @@
 		CE2F0F5E2C7EC4A200F542F2 /* SwiftUIPracTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0F5D2C7EC4A200F542F2 /* SwiftUIPracTests.swift */; };
 		CE2F0F682C7EC4A200F542F2 /* SwiftUIPracUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0F672C7EC4A200F542F2 /* SwiftUIPracUITests.swift */; };
 		CE2F0F6A2C7EC4A200F542F2 /* SwiftUIPracUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0F692C7EC4A200F542F2 /* SwiftUIPracUITestsLaunchTests.swift */; };
+		CE2F0F772C7EE60600F542F2 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0F762C7EE60600F542F2 /* Login.swift */; };
+		CE2F0F7A2C7EE76400F542F2 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0F792C7EE76400F542F2 /* SignInButton.swift */; };
+		CE2F0F7C2C7EF1DC00F542F2 /* InitKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0F7B2C7EF1DC00F542F2 /* InitKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		CE2F0F632C7EC4A200F542F2 /* SwiftUIPracUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPracUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2F0F672C7EC4A200F542F2 /* SwiftUIPracUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracUITests.swift; sourceTree = "<group>"; };
 		CE2F0F692C7EC4A200F542F2 /* SwiftUIPracUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE2F0F762C7EE60600F542F2 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		CE2F0F792C7EE76400F542F2 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
+		CE2F0F7B2C7EF1DC00F542F2 /* InitKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +102,10 @@
 			children = (
 				CE2F0F4C2C7EC4A100F542F2 /* SwiftUIPracApp.swift */,
 				CE2F0F4E2C7EC4A100F542F2 /* ContentView.swift */,
+				CE2F0F7B2C7EF1DC00F542F2 /* InitKey.swift */,
 				CE2F0F502C7EC4A200F542F2 /* Assets.xcassets */,
 				CE2F0F522C7EC4A200F542F2 /* Preview Content */,
+				CE2F0F782C7EE60C00F542F2 /* View */,
 			);
 			path = SwiftUIPrac;
 			sourceTree = "<group>";
@@ -125,6 +133,23 @@
 				CE2F0F692C7EC4A200F542F2 /* SwiftUIPracUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIPracUITests;
+			sourceTree = "<group>";
+		};
+		CE2F0F782C7EE60C00F542F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE2F0F7D2C7F12EF00F542F2 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE2F0F7D2C7F12EF00F542F2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CE2F0F762C7EE60600F542F2 /* Login.swift */,
+				CE2F0F792C7EE76400F542F2 /* SignInButton.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2F0F772C7EE60600F542F2 /* Login.swift in Sources */,
+				CE2F0F7C2C7EF1DC00F542F2 /* InitKey.swift in Sources */,
+				CE2F0F7A2C7EE76400F542F2 /* SignInButton.swift in Sources */,
 				CE2F0F4F2C7EC4A100F542F2 /* ContentView.swift in Sources */,
 				CE2F0F4D2C7EC4A100F542F2 /* SwiftUIPracApp.swift in Sources */,
 			);
